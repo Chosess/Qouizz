@@ -1,0 +1,40 @@
+
+body{
+    background-image: url(../image/fondbleu.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Nunito', sans-serif;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.bonnereponse{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lasuite{
+    height: 86px;
+    width: 179px;
+    border-radius: 20px;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(255, 255, 255, 0.25);
+    border-style: none;
+    color:#6A5AE0;
+    font-size: 25px;
+    font-weight: 700;
+    
+
+}
+h1{
+    color:#43B727;
+    font-weight: 800;
+    
+}
