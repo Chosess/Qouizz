@@ -1,0 +1,74 @@
+body {
+    background-image: url(./image/fondbleu.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+
+.Logo5 {
+    display: flex;
+    flex-direction: column;
+    left: 14.4%;
+    right: 58.93%;
+    top: 3.94%;
+    bottom: 83.74%;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 140%;
+
+    letter-spacing: -0.01em;
+
+    color: white;
+
+}
+
+
+.rose{
+    height: 200px;
+    background-color: #FF8FA2;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(255, 255, 255, 0.25);
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.image7{
+    width: 100px;
+    height: 100px;
+}
+
+.Score{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Score > p{
+    color: white;
+    font-size: 25px;
+    width: 95px;
+}
+
+.ombreuu{
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.25), inset 8px 8px 8px rgba(255, 255, 255, 0.25), inset -8px -8px 8px rgba(0, 0, 0, 0.25);
+    background-color: #6A5AE0;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+    width: 80%;
+    height: 70px;
+    border-radius: 20px;
+    margin: 14px;
+}
+
+.rrrose{
+    height: 500px;
+}
