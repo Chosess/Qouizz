@@ -1,43 +1,24 @@
 html{
     background-image: url(../image/fondbleu.svg);
-    background-repeat: no-repeat;
     background-size: 100%;
+    background-repeat: no-repeat;
     font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
-.page{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -10%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-
+.logpseu{
+    text-align: center;
+    margin-top: 30px;
 }
 
-nav{
-    left: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logo{
+.logo16{
     width: 100px;
     height: 100px;
-    background-image: url(../image/Logo.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
-h1{
-    color: white;
-    font-size: 36px;
-    margin: 10px 0;
+.logpseu > p{
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 .rose{
@@ -51,8 +32,8 @@ h1{
     padding: 20px 0;
 } 
 
-.pseudo{
-    text-align: center;
+.rrose{
+    height: 500px;
 }
 
 .ombreuu{
@@ -65,7 +46,4 @@ h1{
     height: 70px;
     border-radius: 20px;
     margin: 14px;
-}
-.ombreuu::placeholder{
-    color: white;
 }
