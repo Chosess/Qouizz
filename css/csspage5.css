@@ -19,6 +19,7 @@ img{
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-family: 'Nunito', sans-serif;
 }
 
 .lasuite{
@@ -30,11 +31,14 @@ img{
     color:#6A5AE0;
     font-size: 25px;
     font-weight: 700;
+    font-family: 'Nunito', sans-serif;
     
 
 }
 h1{
     color:#ff0000;
     font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
     
 }
