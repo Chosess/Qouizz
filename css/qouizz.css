@@ -62,10 +62,10 @@ h1{
     color: white;
     border-style: none;
     font-size: 20px;
-    width: 80%;
-    height: 70px;
+    width: 88%;
     border-radius: 20px;
-    margin: 14px;
+    margin: 20px;
+    padding: 20px 0;
 }
 .ombreuu::placeholder{
     color: white;
