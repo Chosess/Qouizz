@@ -45,10 +45,10 @@ html{
     color: white;
     border-style: none;
     font-size: 20px;
-    width: 90%;
-    height: 70px;
+    width: 88%;
     border-radius: 20px;
-    margin: 14px;
+    margin: 20px;
+    padding: 20px 0;
 }
 
 .ombreuu:active{
