@@ -1,6 +1,7 @@
 html{
     background-image: url(../image/fondbleu.svg);
-    background-size: 100%;
+    background-size: cover;
+    height: 100vh;
     background-repeat: no-repeat;
     font-family: 'Nunito', sans-serif;
     color: white;
