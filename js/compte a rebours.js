@@ -5,7 +5,7 @@ function rebours(){
 
     timer.textContent = temp;
     if (temp==0){
-        document.location.href="page5.html"; 
+        document.location.href="Questions.html"; 
     }
     temp--;
     setTimeout(rebours,1000);

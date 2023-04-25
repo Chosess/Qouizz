@@ -3,7 +3,7 @@
 function getValue() {
     var input = document.querySelector(".pseudo").value;
     localStorage.pseudo = input ;
-    document.location.href="mael2.html"; 
+    document.location.href="selection.html"; 
 }
 
 const valider = document.querySelector("#btn")
