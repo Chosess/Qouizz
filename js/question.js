@@ -31,10 +31,13 @@ fetch("https://quiz.freefakeapi.io/api/categories/" + sessionStorage.id + "/ques
     q3.dataset.correct = questions[0].answers[2].is_correct;
     q4.dataset.correct = questions[0].answers[3].is_correct;
 
+
     q1.addEventListener("click", function(){
         if(q1.dataset.correct == "true"){
+            sessionStorage.score++;
+            document.querySelector(".points").textContent = sessionStorage.score
 
-            document.location.href="bonnereponse.html";
+            // document.location.href="bonnereponse.html";
 
         } else {
 
@@ -45,6 +48,7 @@ fetch("https://quiz.freefakeapi.io/api/categories/" + sessionStorage.id + "/ques
 
     q2.addEventListener("click", function(){
         if(q2.dataset.correct == "true"){
+            sessionStorage.score++;
 
             document.location.href="bonnereponse.html";
 
@@ -57,6 +61,7 @@ fetch("https://quiz.freefakeapi.io/api/categories/" + sessionStorage.id + "/ques
 
     q3.addEventListener("click", function(){
         if(q3.dataset.correct == "true"){
+            sessionStorage.score++;
 
             document.location.href="bonnereponse.html";
 
@@ -69,6 +74,7 @@ fetch("https://quiz.freefakeapi.io/api/categories/" + sessionStorage.id + "/ques
 
     q4.addEventListener("click", function(){
         if(q4.dataset.correct == "true"){
+            sessionStorage.score++;
 
             document.location.href="bonnereponse.html";
 
