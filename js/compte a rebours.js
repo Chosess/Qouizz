@@ -1,4 +1,4 @@
-let temp = 3;
+let temp = 30;
 
 function rebours(){
     let timer = document.querySelector("#timer");
