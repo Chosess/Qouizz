@@ -5,7 +5,8 @@ function rebours(){
 
     timer.textContent = temp;
     if (temp==0){
-        document.location.href="Questions.html"; 
+        sessionStorage.numero++;
+        document.location.href="mauvaisereponse.html";
     }
     temp--;
     setTimeout(rebours,1000);
