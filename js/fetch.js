@@ -17,28 +17,28 @@ fetch("https://quiz.freefakeapi.io/api/categories?limit=4&random=true", {
 
         c1.addEventListener("click", function () {
             sessionStorage.score = 0
-            sessionStorage.numero = 1
+            sessionStorage.numero = 0
             sessionStorage.id = theme[0].id
             document.location.href="Questions.html";
         })
 
         c2.addEventListener("click", function () {
             sessionStorage.score = 0
-            sessionStorage.numero = 1
+            sessionStorage.numero = 0
             sessionStorage.id = theme[1].id
             document.location.href="Questions.html";
         })
 
         c3.addEventListener("click", function () {
             sessionStorage.score = 0
-            sessionStorage.numero = 1
+            sessionStorage.numero = 0
             sessionStorage.id = theme[2].id
             document.location.href="Questions.html";
         })
 
         c4.addEventListener("click", function () {
             sessionStorage.score = 0
-            sessionStorage.numero = 1
+            sessionStorage.numero = 0
             sessionStorage.id = theme[3].id
             document.location.href="Questions.html";
         })
