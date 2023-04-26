@@ -23,7 +23,7 @@ h1{
     height: 250px;
     background-color: #FF8FA2;
     border-radius: 20px;
-    box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.25), inset -4px -4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(255, 255, 255, 0.25);
     margin: auto;
     margin-bottom: 115px;
     padding: 20px;
@@ -45,16 +45,16 @@ h2{
 }
 
 .qouizz{
-    height: 86px;
-    width: 246px;
     border-radius: 20px;
     box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(255, 255, 255, 0.25);
     border-style: none;
     color:#6A5AE0;
     font-size: 25px;
     font-weight: 700;
-    font-family: 'Nunito', sans-serif;
-    
+    background-color: white;
+    padding: 20px 10px;
+    width: 300px;
+    margin: auto;
    
 }
 
