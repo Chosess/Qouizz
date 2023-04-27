@@ -19,3 +19,7 @@ pseudoo.value = locals
 if(!localStorage.scoretotal >= 0){
     localStorage.scoretotal = 0
 }
+
+if(!localStorage.scorecumule >= 0){
+    localStorage.scorecumule = 0
+}
