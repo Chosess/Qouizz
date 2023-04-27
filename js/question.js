@@ -113,7 +113,7 @@ let question = document.querySelector(".question")
 
     // question.textContent = chose.questions[0].text
 
-    question.textContent = chose[0].text
+    question.textContent = chose[Number(sessionStorage.numero)].text
 
     let q1 = document.querySelector(".q1")
     let q2 = document.querySelector(".q2")
