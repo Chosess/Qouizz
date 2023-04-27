@@ -16,10 +16,13 @@ let locals = localStorage.pseudo
 
 pseudoo.value = locals
 
-if(!localStorage.scoretotal >= 0){
-    localStorage.scoretotal = 0
-}
+// if(![localStorage.scoretotal >= 0]){
+//     localStorage.scoretotal = 0
+// }
 
-if(!localStorage.scorecumule >= 0){
-    localStorage.scorecumule = 0
-}
+// if(![localStorage.scorecumule >= 0]){
+//     localStorage.scorecumule = 0
+// }
+
+localStorage.scoretotal = localStorage.scoretotal??0;
+localStorage.scorecumule = localStorage.scorecumule??0;
