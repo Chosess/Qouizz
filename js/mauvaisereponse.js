@@ -1,5 +1,6 @@
 if(sessionStorage.numero == 10){
     document.querySelector(".lasuite").addEventListener("click", function(){
+        
     document.location.href="resultat.html"
     })
 } else {

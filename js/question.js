@@ -41,7 +41,6 @@ fetch("https://quiz.freefakeapi.io/api/categories/" + sessionStorage.id + "/ques
         if(q1.dataset.correct == "true"){
             sessionStorage.score++;
             
-            // document.querySelector(".points").textContent = sessionStorage.score * 10;
 
             document.location.href="bonnereponse.html";
 
@@ -61,7 +60,6 @@ fetch("https://quiz.freefakeapi.io/api/categories/" + sessionStorage.id + "/ques
         if(q2.dataset.correct == "true"){
             sessionStorage.score++;
 
-            // document.querySelector(".points").textContent = sessionStorage.score * 10;
 
             document.location.href="bonnereponse.html";
 
@@ -79,7 +77,6 @@ fetch("https://quiz.freefakeapi.io/api/categories/" + sessionStorage.id + "/ques
         if(q3.dataset.correct == "true"){
             sessionStorage.score++;
 
-            // document.querySelector(".points").textContent = sessionStorage.score * 10;
 
             document.location.href="bonnereponse.html";
 
@@ -97,7 +94,6 @@ fetch("https://quiz.freefakeapi.io/api/categories/" + sessionStorage.id + "/ques
         if(q4.dataset.correct == "true"){
             sessionStorage.score++;
 
-            // document.querySelector(".points").textContent = sessionStorage.score * 10;
 
             document.location.href="bonnereponse.html";
 
