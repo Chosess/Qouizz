@@ -15,3 +15,7 @@ const pseudoo = document.querySelector(".pseudo")
 let locals = localStorage.pseudo
 
 pseudoo.value = locals
+
+if(!localStorage.scoretotal >= 0){
+    localStorage.scoretotal = 0
+}
