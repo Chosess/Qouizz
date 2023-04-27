@@ -1,6 +1,6 @@
 document.querySelector(".scoreactuel").textContent = sessionStorage.score * 10
 
-localStorage.scoretotal = localStorage.scoretotal + sessionStorage.score
+localStorage.scoretotal = Number(localStorage.scoretotal) + Number(sessionStorage.score)
 
 document.querySelector(".scoretotal").textContent = localStorage.scoretotal * 10
 
