@@ -19,13 +19,16 @@ fetch("https://quiz.freefakeapi.io/api/categories?limit=4&random=true", {
             sessionStorage.score = 0
             sessionStorage.numero = 0
             sessionStorage.id = theme[0].id
+            localStorage.scorecumule++;
             document.location.href="Questions.html";
+            
         })
 
         c2.addEventListener("click", function () {
             sessionStorage.score = 0
             sessionStorage.numero = 0
             sessionStorage.id = theme[1].id
+            localStorage.scorecumule++;
             document.location.href="Questions.html";
         })
 
@@ -33,6 +36,7 @@ fetch("https://quiz.freefakeapi.io/api/categories?limit=4&random=true", {
             sessionStorage.score = 0
             sessionStorage.numero = 0
             sessionStorage.id = theme[2].id
+            localStorage.scorecumule++;
             document.location.href="Questions.html";
         })
 
@@ -40,6 +44,7 @@ fetch("https://quiz.freefakeapi.io/api/categories?limit=4&random=true", {
             sessionStorage.score = 0
             sessionStorage.numero = 0
             sessionStorage.id = theme[3].id
+            localStorage.scorecumule++;
             document.location.href="Questions.html";
         })
         

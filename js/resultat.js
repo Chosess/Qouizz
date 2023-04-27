@@ -4,8 +4,6 @@ localStorage.scoretotal = Number(localStorage.scoretotal) + Number(sessionStorag
 
 document.querySelector(".scoretotal").textContent = localStorage.scoretotal * 10
 
-localStorage.scorecumule++;
-
 document.querySelector(".scorecumule").textContent = localStorage.scorecumule * 100
 
 
