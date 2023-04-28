@@ -55,7 +55,7 @@ fetch("https://quiz.freefakeapi.io/api/categories?limit=4&random=true", {
             .then(reponse => reponse.json())
             .then(questions => {
                 sessionStorage.question = JSON.stringify(questions)
-                document.location.href="questions.html";
+                document.location.href="Questions.html";
             })
         })
 
@@ -76,7 +76,7 @@ fetch("https://quiz.freefakeapi.io/api/categories?limit=4&random=true", {
             .then(reponse => reponse.json())
             .then(questions => {
                 sessionStorage.question = JSON.stringify(questions)
-                document.location.href="questions.html";
+                document.location.href="Questions.html";
             })
         })
 
@@ -97,7 +97,7 @@ fetch("https://quiz.freefakeapi.io/api/categories?limit=4&random=true", {
             .then(reponse => reponse.json())
             .then(questions => {
                 sessionStorage.question = JSON.stringify(questions)
-                document.location.href="questions.html";
+                document.location.href="Questions.html";
             })
         })
         
