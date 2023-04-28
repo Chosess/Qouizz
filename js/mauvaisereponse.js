@@ -6,6 +6,6 @@ if(sessionStorage.numero >= 10){
     })
 } else {
     document.querySelector(".lasuite").addEventListener("click", function(){
-        document.location.href="Questions.html"
+        document.location.href="questions.html"
     })
 }
